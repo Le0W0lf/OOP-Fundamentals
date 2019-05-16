@@ -1,4 +1,5 @@
 ﻿using System;
+using BL;
 
 namespace OOP_Fundamentals
 {
@@ -6,7 +7,7 @@ namespace OOP_Fundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Customer c = new Customer;
         }
     }
 }
