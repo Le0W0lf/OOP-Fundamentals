@@ -7,7 +7,11 @@ namespace OOP_Fundamentals
     {
         static void Main(string[] args)
         {
-            Customer c = new Customer;
+            Class1 c = new Class1(10);
+            //Object o = new Object();
+            string s = "           joiiugvniu pldk";
+            Console.WriteLine(s.trim());
         }
+        
     }
 }
