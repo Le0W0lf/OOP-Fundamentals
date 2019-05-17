@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace OOP_Fundamentals
 {
+   
     static class ChildClass
     {
         public static void Print(this IMyInterfice s)
@@ -14,5 +16,9 @@ namespace OOP_Fundamentals
         {
             return s.Trim();
         }
+        
+
+
+    }
     }
 }
