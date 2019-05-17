@@ -45,5 +45,11 @@
     <Compile Include="InternalClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OOP-Fundamentals\OOP-Fundamentals.csproj">
+      <Project>{15b4e509-a1c6-451c-812f-dbc9a18f83c0}</Project>
+      <Name>OOP-Fundamentals</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

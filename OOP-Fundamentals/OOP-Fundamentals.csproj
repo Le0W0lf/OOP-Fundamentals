@@ -6,8 +6,4 @@
     <RootNamespace>OOP_Fundamentals</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\BL\BL.csproj" />
-  </ItemGroup>
-
 </Project>
