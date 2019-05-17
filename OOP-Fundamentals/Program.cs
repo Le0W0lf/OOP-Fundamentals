@@ -7,10 +7,11 @@ namespace OOP_Fundamentals
     {
         static void Main(string[] args)
         {
-            Class1 c = new Class1(10);
+            MyClass c1 = new MyClass("       Frodo","            Beggins");
+            MyClass c2 = new MyClass();
             //Object o = new Object();
-            string s = "           joiiugvniu pldk";
-            Console.WriteLine(s.trim());
+            c1.Print();
+            c2.Print();
         }
         
     }
